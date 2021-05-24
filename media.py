@@ -30,6 +30,8 @@ def validanota(nota):
         return True
     elif(verificarletra(nota) == True):
         return True
+    elif(characteres(nota) == True):
+        return True
     elif(verificar(nota) == False):
         if (0 >= float(nota) <= 10):
             return False
@@ -57,5 +59,17 @@ def verificarletra(nota):
         return False
     else:
         return True
+
+def characteres(nota):
+    lista = '"!","@","#","$","%","¨","&","*","(",")","-","=","+","´",","'
+    count = 0
+    if (nota in lista):
+        return True
+    elif nota[i] in lista:
+            print("Saída por char especial")
+            return False
+    else:
+        return False
+
 
 main()

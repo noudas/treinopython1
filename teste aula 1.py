@@ -1,0 +1,10 @@
+x = input("Escreva seu nome aqui: ")
+y = int(input("Escreva sua idade: "))
+z = float(input("Escreva sua altura em metros: "))
+w = input("Tem dependentes? ")
+if x == "Dalma" or x == "dalma":
+    print (x + " sugada na minha rola")
+print ("Bem vindo! " + x + "", type(x))
+print ("Idade: %d " %y, "", type(y))
+print ("Altura:%.2f " %z, "", type(z))
+print ("Dependentes " + w + "", type(w))
