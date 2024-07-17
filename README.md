@@ -1,8 +1,6 @@
-Exercícios de Treino em Python
+# Exercicios de Treino de Python
+Repostorio de Exercicios de Python feitos no curso de Analise e Desenvolvimento de Sistemas pela Faculdade Impacta de Tecnologia
 
-Este repositório contém uma coleção de exercícios práticos em Python, ideal para quem está aprendendo ou aprimorando suas habilidades na linguagem.
+## Requisitos
 
-Recursos Adicionais
-
-Python Documentation - Documentação oficial do Python para referência.
-Exemplos Python - Exemplos oficiais de código Python.
+- Python 3.9 para cima
